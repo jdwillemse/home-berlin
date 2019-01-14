@@ -1,0 +1,92 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Input should match snapshot 1`] = `
+<fieldset
+  className="input__wrap clearfix"
+>
+  <label
+    htmlFor="phone"
+  >
+    <div
+      className="input__label"
+    >
+      Phone number
+    </div>
+    <input
+      aria-describedby="phone-error"
+      className="input__field"
+      id="phone"
+      name="phone"
+      onBlur={[MockFunction]}
+      pattern="^+?(d|-|s)+$"
+      required={true}
+      type="tel"
+    />
+    <div
+      aria-live="polite"
+      className="invalid-feedback"
+      id="phone-error"
+    />
+  </label>
+</fieldset>
+`;
+
+exports[`Input should match snapshot 2`] = `
+<fieldset
+  className="input__wrap clearfix"
+>
+  <label
+    htmlFor="fullname"
+  >
+    <div
+      className="input__label"
+    >
+      Full name
+    </div>
+    <input
+      aria-describedby="fullname-error"
+      className="input__field"
+      id="fullname"
+      name="fullname"
+      onBlur={[MockFunction]}
+      required={true}
+      type="text"
+    />
+    <div
+      aria-live="polite"
+      className="invalid-feedback"
+      id="fullname-error"
+    />
+  </label>
+</fieldset>
+`;
+
+exports[`Input should match snapshot 3`] = `
+<fieldset
+  className="input__wrap clearfix"
+>
+  <label
+    htmlFor="email"
+  >
+    <div
+      className="input__label"
+    >
+      Email address
+    </div>
+    <input
+      aria-describedby="email-error"
+      className="input__field"
+      id="email"
+      name="email"
+      onBlur={[MockFunction]}
+      required={true}
+      type="email"
+    />
+    <div
+      aria-live="polite"
+      className="invalid-feedback"
+      id="email-error"
+    />
+  </label>
+</fieldset>
+`;

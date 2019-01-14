@@ -1,6 +1,5 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { withRouter } from 'react-router-dom';
 
 import './style.css';
 import Input from '../Input';
@@ -200,4 +199,4 @@ Form.propTypes = {
   history: PropTypes.shape({ push: PropTypes.func.isRequired }).isRequired
 };
 
-export default withRouter(Form);
+export default Form;

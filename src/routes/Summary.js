@@ -3,7 +3,8 @@ import PropTypes from 'prop-types';
 
 const Summary = ({ location }) => (
   <section className="view-container summary">
-    <h1>summary</h1>
+    <h1>Summary</h1>
+
     {location.state &&
       Object.keys(location.state).map(key => (
         <p key={key}>

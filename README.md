@@ -1,68 +1,56 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Installation
 
-## Available Scripts
+This project is built on [create-react-app](https://github.com/facebook/create-react-app). To install dependencies run `yarn install` in the root and to start the project run `yarn start`
 
-In the project directory, you can run:
+# Technical choices
 
-### `npm start`
+- create-react-app is used because it is the simplest way to scaffold a React project the has no server-side rendering requirement.
+- react-router was chosen for routing as it is the most feature rich and easiest to use which makes it a very popular choice in the comunity.
+- To handle page transitions I use react-transition-group because it is simple to use and can be used in a variety of contexts.
+- Pre-commit hooks are used for code quality control.
+- eslint and prettier are used to maintain code consistency.
+- jest and enzyme are used for automated tests as they are the suggested tools when using create-react-app.
+- I spend no time on styling as there was no design to follow and I didn't think it important for this project
 
-Runs the app in the development mode.<br>
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+# Instructions: Frontend Challenge vo2
 
-The page will reload if you make edits.<br>
-You will also see any lint errors in the console.
+### **Some notes**
 
-### `npm test`
+_Please make a new repository on GitHub for this project - we'd love to see your commit messages!_
+_You can use the technology of your choice, as long the result is a React._
+_If you have any questions about the task, email Moritz at moritz@home.ht. Happy to help ;-)_
 
-Launches the test runner in the interactive watch mode.<br>
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### **The Challenge** 💪
 
-### `npm run build`
+Home rents to a select group of tenants. The aim of this challenge is to build an application form for tenants, so that they can register with Home and start booking apartments.
 
-Builds the app for production to the `build` folder.<br>
-It correctly bundles React in production mode and optimizes the build for the best performance.
+We're looking for a multi-page application form, which should include:
 
-The build is minified and the filenames include the hashes.<br>
-Your app is ready to be deployed!
+- fields, including:
+  - full name
+  - email
+  - phone number
+  - salary indication (radio buttons)
+    - 0 - 1.000
+    - 1.000 - 2.000
+    - 2.000 - 3.000
+    - 3.000 - 4.000
+    - Mehr als 4.000
+- a progress indicator
+- a summary of all the data entered during the flow, displayed on the last page.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Stretch goals to show off 😎:
 
-### `npm run eject`
+- Animations
+- Responsive design
+- Automated tests
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+### **When you're done** ✅
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Send Mia (mia@home.ht) an email with the following:
 
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+- a link to your repo on GitHub
+- a short summary of technical choices, the decisions you made and what could be improved.
+- Finally, please include a short Readme to help us launch and test the project.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+Thank you and excited to see the results! 🚀

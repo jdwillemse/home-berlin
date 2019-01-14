@@ -1,0 +1,159 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Form should match snapshot 1`] = `
+<form
+  noValidate={true}
+  onSubmit={[Function]}
+>
+  <div
+    className="progress-indicator"
+  >
+    <div
+      aria-label="form is 0% complete"
+      aria-live="polite"
+      className="progress-indicator__inner progress-indicator__inner--0"
+    />
+  </div>
+  <Input
+    addRef={[Function]}
+    label="Full name"
+    name="fullname"
+    onBlur={[Function]}
+    type="text"
+  />
+  <Input
+    addRef={[Function]}
+    label="Email address"
+    name="email"
+    onBlur={[Function]}
+    type="email"
+  />
+  <Input
+    addRef={[Function]}
+    label="Phone number"
+    name="phone"
+    onBlur={[Function]}
+    pattern="^\\\\+?(\\\\d|-|\\\\s)+$"
+    type="tel"
+  />
+  <fieldset
+    className="input__wrap clearfix"
+  >
+    <label
+      className="input__radio"
+      htmlFor="bracket1"
+      key="bracket1"
+    >
+      <input
+        aria-describedby="salary-error"
+        className="input__field input__field--radio"
+        id="bracket1"
+        name="salary"
+        onChange={[Function]}
+        required={true}
+        type="radio"
+        value="bracket1"
+      />
+      <span
+        className="input__label input__label--radio"
+      >
+        Less than 1.000
+      </span>
+    </label>
+    <label
+      className="input__radio"
+      htmlFor="bracket2"
+      key="bracket2"
+    >
+      <input
+        aria-describedby="salary-error"
+        className="input__field input__field--radio"
+        id="bracket2"
+        name="salary"
+        onChange={[Function]}
+        required={true}
+        type="radio"
+        value="bracket2"
+      />
+      <span
+        className="input__label input__label--radio"
+      >
+        1.000 – 2.000
+      </span>
+    </label>
+    <label
+      className="input__radio"
+      htmlFor="bracket3"
+      key="bracket3"
+    >
+      <input
+        aria-describedby="salary-error"
+        className="input__field input__field--radio"
+        id="bracket3"
+        name="salary"
+        onChange={[Function]}
+        required={true}
+        type="radio"
+        value="bracket3"
+      />
+      <span
+        className="input__label input__label--radio"
+      >
+        2.000 – 3.000
+      </span>
+    </label>
+    <label
+      className="input__radio"
+      htmlFor="bracket4"
+      key="bracket4"
+    >
+      <input
+        aria-describedby="salary-error"
+        className="input__field input__field--radio"
+        id="bracket4"
+        name="salary"
+        onChange={[Function]}
+        required={true}
+        type="radio"
+        value="bracket4"
+      />
+      <span
+        className="input__label input__label--radio"
+      >
+        3.000 – 4.000
+      </span>
+    </label>
+    <label
+      className="input__radio"
+      htmlFor="bigMoney"
+      key="bigMoney"
+    >
+      <input
+        aria-describedby="salary-error"
+        className="input__field input__field--radio"
+        id="bigMoney"
+        name="salary"
+        onChange={[Function]}
+        required={true}
+        type="radio"
+        value="bigMoney"
+      />
+      <span
+        className="input__label input__label--radio"
+      >
+        More than 4.000
+      </span>
+    </label>
+    <div
+      aria-live="polite"
+      className="invalid-feedback"
+      id="salary-error"
+    />
+  </fieldset>
+  <button
+    type="submit"
+  >
+    submit
+  </button>
+</form>
+`;

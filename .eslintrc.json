@@ -4,6 +4,14 @@
   "rules": {
     "prettier/prettier": ["error"],
     "jsx-a11y/href-no-hash": [0],
-    "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }]
+    "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
+    "react/jsx-one-expression-per-line": [0],
+    "no-plusplus": ["error", { "allowForLoopAfterthoughts": true }]
+  },
+  "globals": {
+    "shallow": false,
+    "render": false,
+    "mount": false,
+    "toJson": false
   }
 }
